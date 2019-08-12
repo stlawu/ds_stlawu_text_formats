@@ -50,3 +50,16 @@ https://github.com/cainaru/ds_stlawu_text_formats
 Then, run `composer require cainaru/ds_stlawu_text_formats`.
 
 Next, enable the module by running `drush en ds_stlawu_text_formats`.
+
+### Getting configuration for Basic HTML and Full HTML
+
+This module does provide configuration that modifies the Basic HTML and Full
+HTML editors/formats that are provided by the Standard profile. To import these
+config into your site:
+
+* Enable Features UI
+* Go to `/admin/config/development/features` 
+* Select STLAWU Digital Scholarship from the dropdown list labeled Bundle
+* In the row for STLAWU Digital Scholarship: Text Formats, click Changed
+* Click the unchecked checkbox that is at the top of the page
+* Scroll to the bottom of the page and click the button labeled Import changes

@@ -21,6 +21,11 @@
     }
   },
   "suggest": {
+    "cainaru/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding.",
+    "cainaru/ds_stlawu_date_formats": "Recommended for commonly used date formats.",
+    "cainaru/ds_stlawu_media": "Recommended for easy media.",
+    "cainaru/ds_stlawu_nodes": "Recommended for pre-packaged content types.",
+    "cainaru/ds_stlawu_paragraphs": "Recommended for pre-packaged paragraph types.",
     "drupal/allowed_formats": "Recommended for restricting available text formats per field instance."
   },
   "require": {

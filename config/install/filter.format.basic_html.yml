@@ -3,6 +3,7 @@ status: true
 dependencies:
   module:
     - editor
+    - linkit
 name: 'Basic HTML'
 format: basic_html
 weight: 0
@@ -65,3 +66,10 @@ filters:
     status: false
     weight: -43
     settings: {  }
+  linkit:
+    id: linkit
+    provider: linkit
+    status: true
+    weight: 0
+    settings:
+      title: true

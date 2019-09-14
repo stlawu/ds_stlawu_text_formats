@@ -3,6 +3,7 @@ status: true
 dependencies:
   module:
     - editor
+    - linkit
 name: 'Full HTML'
 format: full_html
 weight: 2
@@ -38,6 +39,13 @@ filters:
     weight: 0
     settings:
       filter_url_length: 72
+  linkit:
+    id: linkit
+    provider: linkit
+    status: true
+    weight: -48
+    settings:
+      title: true
   filter_html:
     id: filter_html
     provider: filter

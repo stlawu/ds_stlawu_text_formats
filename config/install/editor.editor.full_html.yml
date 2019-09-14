@@ -55,7 +55,10 @@ settings:
             - Source
   plugins:
     stylescombo:
-      styles: ''
+      styles: 'p.lead|Lead paragraph'
+    drupallink:
+      linkit_enabled: true
+      linkit_profile: default
     language:
       language_list: un
 image_upload:

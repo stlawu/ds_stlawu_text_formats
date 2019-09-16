@@ -1,10 +1,10 @@
 {
-  "name": "cainaru/ds_stlawu_text_formats",
+  "name": "stlawu/ds_stlawu_text_formats",
   "type": "drupal-custom-module",
   "description": "Text formats used for Digital Scholarship.",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://github.com/cainaru/ds_stlawu_text_formats",
+  "homepage": "https://github.com/stlawu/ds_stlawu_text_formats",
   "minimum-stability": "dev",
   "support": {
     "issues": "",
@@ -21,11 +21,11 @@
     }
   },
   "suggest": {
-    "cainaru/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding.",
-    "cainaru/ds_stlawu_date_formats": "Recommended for commonly used date formats.",
-    "cainaru/ds_stlawu_media": "Recommended for easy media.",
-    "cainaru/ds_stlawu_nodes": "Recommended for pre-packaged content types.",
-    "cainaru/ds_stlawu_paragraphs": "Recommended for pre-packaged paragraph types.",
+    "stlawu/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding.",
+    "stlawu/ds_stlawu_date_formats": "Recommended for commonly used date formats.",
+    "stlawu/ds_stlawu_media": "Recommended for easy media.",
+    "stlawu/ds_stlawu_nodes": "Recommended for pre-packaged content types.",
+    "stlawu/ds_stlawu_paragraphs": "Recommended for pre-packaged paragraph types.",
     "drupal/allowed_formats": "Recommended for restricting available text formats per field instance."
   },
   "require": {
